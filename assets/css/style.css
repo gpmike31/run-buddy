@@ -142,9 +142,23 @@ section {
     color: #fce138;
 }
 /* HERO STYLES END */
+.flex-row {
+    display: flex;
+}
 
 .intro {
     text-align: center;
+}
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .steps {
@@ -172,14 +186,23 @@ section {
 .step h3 {
     color: #024e76;
     font-size: 46px;
-    flex: 30;
+    flex:1 30%;
 }
 
 .step-info {
-    display:flex;
+    display: flex;
     flex: 2 70%;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
 }
 
 .step-text {
@@ -195,15 +218,6 @@ section {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
-}
-
-.step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-}
-
-.step-img img {
-    max-width: 100%;
 }
 
 .trainers {
@@ -230,14 +244,6 @@ section {
     line-height: 1.3;
 }
 
-.text-left {
-    text-align: left;
-}
-  
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 28px;
 }
@@ -251,6 +257,15 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+
+.text-left {
+    text-align: left;
+}
+  
+.text-right {
+    text-align: right;
+}
+
 
 /* REACH OUT STYLES START */
 .contact {
@@ -291,7 +306,3 @@ section {
     color: #fce138;
 }
 /* REACH OUT STYLES END */
-
-.flex-row {
-    display: flex;
-}
